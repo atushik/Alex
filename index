@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Création Web Professionnels</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); }
+        .card { transition: transform 0.2s; border: 1px solid #e2e8f0; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); }
+        .price-tag { background: #f1f5f9; border-radius: 9999px; padding: 2px 12px; font-weight: 600; color: #0f172a; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <header class="gradient-bg text-white py-12 px-6 text-center">
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-4 uppercase tracking-tight">Boostez Votre Business en Ligne</h1>
+        <p class="text-xl text-slate-300 max-w-2xl mx-auto italic">Des solutions digitales professionnelles, rapides et rentables pour chaque secteur d'activité.</p>
+    </header>
+
+    <main class="max-w-6xl mx-auto py-12 px-6">
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- 1. Petites Entreprises -->
+            <div class="card bg-white p-6 rounded-2xl">
+                <div class="flex items-center mb-4">
+                    <div class="bg-blue-100 p-3 rounded-lg text-blue-600 mr-4 text-xl"><i class="fas fa-briefcase"></i></div>
+                    <h2 class="text-xl font-bold">Petites Entreprises</h2>
+                </div>
+                <ul class="space-y-2 text-slate-600 mb-6">
+                    <li><i class="fas fa-check text-blue-500 mr-2"></i>Salons de beauté 💇‍♀️</li>
+                    <li><i class="fas fa-check text-blue-500 mr-2"></i>Garages automobiles 🚗</li>
+                    <li><i class="fas fa-check text-blue-500 mr-2"></i>Restaurants / Cafés 🍕</li>
+                    <li><i class="fas fa-check text-blue-500 mr-2"></i>Boutiques de téléphonie 📱</li>
+                    <li><i class="fas fa-check text-blue-500 mr-2"></i>Nettoyage & Artisanat</li>
+                </ul>
+                <div class="border-t pt-4">
+                    <div class="flex justify-between items-center text-sm mb-2">
+                        <span>Création:</span>
+                        <span class="price-tag">150€ – 1000€</span>
+                    </div>
+                    <div class="flex justify-between items-center text-sm">
+                        <span>Support:</span>
+                        <span class="price-tag">30€ – 100€/mois</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. E-commerce -->
+            <div class="card bg-white p-6 rounded-2xl">
+                <div class="flex items-center mb-4">
+                    <div class="bg-emerald-100 p-3 rounded-lg text-emerald-600 mr-4 text-xl"><i class="fas fa-shopping-cart"></i></div>
+                    <h2 class="text-xl font-bold">E-commerce</h2>
+                </div>
+                <ul class="space-y-2 text-slate-600 mb-6">
+                    <li><i class="fas fa-check text-emerald-500 mr-2"></i>Mode & Vêtements</li>
+                    <li><i class="fas fa-check text-emerald-500 mr-2"></i>Téléphones & Accessoires</li>
+                    <li><i class="fas fa-check text-emerald-500 mr-2"></i>Dropshipping (International)</li>
+                </ul>
+                <div class="border-t pt-4">
+                    <div class="flex justify-between items-center text-sm mb-2">
+
+<span>Solution complète:</span>
+                        <span class="price-tag">300€ – 1000€</span>
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 italic">Projet "Clé en main"</p>
+                </div>
+            </div>
+
+            <!-- 3. Landing Pages -->
+            <div class="card bg-white p-6 rounded-2xl border-2 border-blue-500">
+                <div class="flex items-center mb-4">
+                    <div class="bg-blue-500 p-3 rounded-lg text-white mr-4 text-xl"><i class="fas fa-rocket"></i></div>
+                    <h2 class="text-xl font-bold">Landing Pages</h2>
+                </div>
+                <ul class="space-y-2 text-slate-600 mb-6">
+                    <li><i class="fas fa-check text-blue-500 mr-2"></i>Publicité de services</li>
+                    <li><i class="fas fa-check text-blue-500 mr-2"></i>Lancement de produit</li>
+                    <li><i class="fas fa-check text-blue-500 mr-2"></i>Cours & Formations en ligne</li>
+                </ul>
+                <div class="border-t pt-4">
+                    <div class="flex justify-between items-center text-sm mb-2">
+                        <span>Prix:</span>
+                        <span class="price-tag">100€ – 500€</span>
+                    </div>
+                    <p class="text-sm font-semibold text-blue-600 mt-2">Délai: 1 à 2 jours !</p>
+                </div>
+            </div>
+
+            <!-- 4. Sites Vitrine -->
+            <div class="card bg-white p-6 rounded-2xl">
+                <div class="flex items-center mb-4">
+                    <div class="bg-slate-100 p-3 rounded-lg text-slate-600 mr-4 text-xl"><i class="fas fa-id-card"></i></div>
+                    <h2 class="text-xl font-bold">Sites Vitrine</h2>
+                </div>
+                <p class="text-sm text-slate-500 mb-4">Site simple de 3 à 5 pages pour une présence efficace.</p>
+                <ul class="space-y-1 text-xs text-slate-600 mb-6 grid grid-cols-2">
+                    <li>• À propos</li>
+                    <li>• Services</li>
+                    <li>• Contact</li>
+                    <li>• Devis</li>
+                </ul>
+                <div class="border-t pt-4">
+                    <div class="flex justify-between items-center text-sm">
+                        <span>Prix:</span>
+                        <span class="price-tag">150€ – 300€</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. Sites sous Location -->
+            <div class="card bg-white p-6 rounded-2xl">
+                <div class="flex items-center mb-4">
+                    <div class="bg-orange-100 p-3 rounded-lg text-orange-600 mr-4 text-xl"><i class="fas fa-key"></i></div>
+                    <h2 class="text-xl font-bold">Sites sous Location</h2>
+                </div>
+                <ul class="space-y-2 text-slate-600 mb-6">
+                    <li><i class="fas fa-tools mr-2 text-orange-500"></i>Réparation iPhones</li>
+                    <li><i class="fas fa-truck mr-2 text-orange-500"></i>Dépanneuse Lyon</li>
+                </ul>
+                <div class="border-t pt-4 text-center">
+                    <p class="text-lg font-bold text-orange-600">50€ – 150€ / mois</p>
+                </div>
+            </div>
+
+            <!-- 6. Réservation -->
+            <div class="card bg-white p-6 rounded-2xl">
+                <div class="flex items-center mb-4">
+                    <div class="bg-indigo-100 p-3 rounded-lg text-indigo-600 mr-4 text-xl"><i class="fas fa-calendar-check"></i></div>
+                    <h2 class="text-xl font-bold">Système de Réservation</h2>
+                </div>
+                <ul class="space-y-2 text-slate-600 mb-6 text-sm">
+                    <li>• Location de voitures</li>
+
+<li>• Appartements / Airbnb</li>
+                    <li>• Salons de beauté</li>
+                </ul>
+                <div class="border-t pt-4">
+                    <div class="flex justify-between items-center text-sm">
+                        <span>À partir de:</span>
+                        <span class="price-tag">100€ – 500€</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section Flippa / Annuaires -->
+        <div class="mt-12 bg-slate-100 rounded-3xl p-8 flex flex-col md:flex-row gap-8 items-center">
+            <div class="flex-1">
+                <h2 class="text-2xl font-bold mb-4">Investissement & Annuaires</h2>
+                <p class="text-slate-600 mb-4">Vente de sites rentables (Flippa/MotionInvest) : Blogs, sites de niche, catalogues. Monétisation par publicité ou placement payant.</p>
+                <div class="flex gap-4 flex-wrap">
+                    <span class="bg-white px-4 py-2 rounded-xl text-sm font-semibold shadow-sm">Vente: 500€ – 3000€</span>
+                    <span class="bg-white px-4 py-2 rounded-xl text-sm font-semibold shadow-sm">Annuaires: 500€ – 1000€</span>
+                </div>
+            </div>
+            <div class="flex-none bg-blue-600 text-white p-6 rounded-2xl text-center shadow-lg">
+                <p class="uppercase text-xs font-bold tracking-widest mb-2">Opportunité</p>
+                <p class="text-3xl font-extrabold">+Monétisation</p>
+                <p class="text-sm opacity-80 mt-1">Générez des revenus passifs</p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="gradient-bg text-white py-16 px-6 text-center">
+        <h2 class="text-3xl font-bold mb-8">Contactez-nous pour un devis gratuit</h2>
+        <div class="flex flex-col md:flex-row justify-center items-center gap-8 text-xl">
+            <a href="tel:+33677171188" class="flex items-center hover:text-blue-400 transition">
+                <i class="fas fa-phone-alt mr-3"></i> +33 6 77 17 11 88
+            </a>
+            <a href="mailto:atushbek020185@gmail.com" class="flex items-center hover:text-blue-400 transition">
+                <i class="fas fa-envelope mr-3"></i> atushbek020185@gmail.com
+            </a>
+        </div>
+        <div class="mt-12 opacity-50 text-sm">
+            © 2025 Web Services Pro. Tous droits réservés.
+        </div>
+    </footer>
+
+</body>
+</html> 
